@@ -4,7 +4,9 @@
 -d 将视频下载到本地的目录
 -k  搜索西瓜视频的关键字
 -p  下载搜索到从1~N 页的西瓜视频，每页有18个视频，当输入超过检索的最大值将不会下载
-python3.7 xigua.py -d smile -k 微笑 -
+
+python3.7 xigua.py -d smile -k 微笑 -p 20
+
 只下载duration >420s 的视频  
 
 数据源 www.ixigua.com
